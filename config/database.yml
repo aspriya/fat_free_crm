@@ -23,3 +23,13 @@ production:
 staging:
   <<: *development
   database: fat_free_crm_staging
+
+
+  #adapter: postgresql
+  #database: fat_free_crm_development
+  #username: <%= ENV['RDS_USERNAME'] %>
+  #password: <%= ENV['RDS_PASSWORD'] %>
+  #host: <%= ENV['RDS_HOSTNAME'] %>
+  #port: <%= ENV['RDS_PORT'] %>
+  #schema_search_path: public
+  #min_messages: warning
